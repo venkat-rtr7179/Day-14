@@ -1,0 +1,139 @@
+body{
+  background-color: #64dede;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+#header{
+  height: 10%;
+  display: block;
+}
+#description{
+  font-size: 24px;
+  color: #4f5e67;
+  margin-left: 20px;
+  text-align: center;
+}
+#body{
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+h1{
+  font-size: 32px;
+  color: #4f5e67;
+  
+  text-align: center;
+
+}
+.div-form{
+  width:20%;
+  
+  display: flex;
+  flex-direction: column;
+}
+.div-table{
+  width:80%;
+  
+  display: flex;
+  flex-direction: column;
+}
+.div-form   p{
+  font-size: 28px;
+  color: #4f5e67;
+  font-weight: bold;
+  margin-left: 20px;
+}
+input{
+  display: block;
+  background-color: rgb(145, 141, 141) ;
+  /* margin-top: 15px; */
+  margin-left: 20px;
+  border:1px solid #878983;
+  height: 20px;
+  /* width: 240px; */
+
+}
+textarea{
+  background-color: rgb(137, 133, 133) ;
+  margin-top: 15px;
+  margin-left: 20px;
+  border:1px solid #848581;
+  height: 100px;
+  width: 240px;
+  resize: none;
+}
+.radio{
+  width: 15px;
+  margin-top: 0px;
+}
+
+
+label{
+display: block;
+/* margin-top: 15px; */
+margin-left: 20px;
+}
+
+#gender{
+  display: flex;
+}
+
+#choice {
+  display: flex;
+  flex-direction: column;
+}
+
+#choice div{
+  display: flex;
+  flex-direction: row;
+}
+button{
+  margin-top: 15px;
+  font-size: 16px;
+  margin-left: 20px;
+  background-color: #6e747e;
+  width: 240px;
+  height: auto;
+  color: rgb(144, 74, 219);
+}
+
+.div-table p{
+  font-size: 28px;
+  color: #4f5e67;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.head{
+  background-color: #5506de;
+}
+th{
+  color: rgb(237, 240, 243);
+  font-size: 16px;
+  text-align: left;
+  height: 36px;
+  font-weight:900;
+  width: 12.5%;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td{
+  font-size: 14px;
+  text-align: left;
+  height: 24px;
+  background-color: #e3e3df;
+  width: 12.5%;
+  
+}
+
+.form-control{
+  width:240px !important;
+}

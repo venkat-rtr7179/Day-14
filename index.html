@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="header"><h1 id="title">DOM manipulation with Forms </h1></div>
+        <div id="body">
+        <div class="div-form">
+            
+            <form id="form">
+                <div class="formcontent">
+                    <p>Form Submission:</p>
+                    <label for="last-name">First Name:</label>
+                    <input type="text" class="form-control" id="first-name" name="fsname" required placeholder="First Name">
+                </div>
+                <div class="formcontent">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="form-control" id="last-name" name="lname" required placeholder="Last Name"> 
+                    </div>
+                    <div class="formcontent">
+                    <label for="address">Address</label>
+                    <textarea id="address" required placeholder="Address"></textarea>
+                </div>
+                <div class="formcontent">
+                    <label for="pin">PIN:</label>
+                    <input type="text" class="form-control" id="pincode" name="pin" required placeholder="Pincode">
+                </div>
+                <div class="formcontent"> 
+                    <label for="gender">Gender:</label>
+                    <div id="gender">
+                        
+                        <input type="radio" id="male" name="gender" class="radio" value="Male" required>Male
+                        
+                        <input type="radio" id="female" name="gender" class="radio" value= "Female"required>Female
+                    </div>
+                </div>
+                <div class="formcontent">
+                    <label>Food options :<i>(Please choose at least any Two)</i></label>
+                    <div id="options">
+                        <div>
+                            <input type="checkbox" id="pv" name="pv" value="Pure Veg" class="checkbox">Pure Veg
+                        </div>
+                        <div>
+                            <input type="checkbox" id="nv" name="nv" value="NV" class="checkbox">Non Veg
+                        </div>
+                        <div>
+                            <input type="checkbox" id="chinese" name="chinese" value="Chinese" class="checkbox">Chinese
+                        </div>
+                        <div>
+                            <input type="checkbox" id="it" name="it" value="ity" class="checkbox">Italian
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ty" name="ty" value="thy" class="checkbox">Thai
+                        </div>    
+                    </div>
+                </div>
+                <div class="formcontent">
+                    <label for="state">State:</label>
+                    <input type="text" class="form-control" id="state" name="state" required placeholder="State">
+                </div>
+                <div class="formcontent">
+                    <label for="country">Country:</label>
+                    <input type="text" class="form-control" id="country" name="country" required placeholder="Country">
+                </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                
+                </div>
+                </form> 
+                <div class="div-table">
+                    <p>Temporary Database</p>
+                    <table class="table">
+                        <thead>
+                            <tr class="head">
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Address</th>
+                                <th>Pincode</th>
+                                <th>Gender</th>
+                                <th>Food</th>
+                                <th>State</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+             
+                        </tbody>
+                    </table>
+                        
+                </div> 
+    </div>
+    
+</div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
